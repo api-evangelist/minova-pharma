@@ -1,8 +1,26 @@
 aid: minova-pharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/minova-pharma.png
 name: Minova Pharma
-description: 'Minova Pharma is a company surfaced as a portfolio company of idg-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Nanjing Minova Pharmaceutical Technology Co., Ltd. (南京迈诺威医药科技有限公司) is a
+  drug-discovery and pharmaceutical R&D company founded in February 2021 and headquartered
+  in Nanjing, China. The company focuses on the discovery, development, and industrialization
+  of novel drugs for mental diseases and disfiguring (cosmetic/dermatological) diseases,
+  operating in the consumer-pharmaceutical space as both a drug R&D house and supplier.
+  Its stated capabilities span early drug discovery, compound/drug screening, and druggability
+  (developability) research. Surfaced as a portfolio company of IDG Capital and added to
+  the API Evangelist network. Minova Pharma publishes a corporate marketing website but
+  exposes no public developer portal, API, SDK, or machine-readable interface.'
 url: https://raw.githubusercontent.com/api-evangelist/minova-pharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +30,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Pharmaceutical
+- Drug Discovery
+- Life Sciences
+- Biotech
+- China
+- Research and Development
 apis: []
+common:
+- type: Website
+  url: https://minovapharma.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
